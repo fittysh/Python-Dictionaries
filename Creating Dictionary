@@ -1,0 +1,33 @@
+# Dictionaries are written with curly brackets, and have keys and values:
+# Dictionaries are used to store data values in key:value pairs.
+# A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+
+sensors =  {"living room": 21, "kitchen": 23, "bedroom": 20, "pantry": 22}
+num_cameras = {"backyard": 6, "garage": 2, "driveway": 1}
+
+print(sensors)
+print(len(sensors))
+
+# Duplicates not allowed in Dictionaries
+# Duplicate values will overwrite existing values:
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "year": 1961,
+  "colors": ["red", "white", "blue"]
+}
+print(thisdict)
+print(len(thisdict))
+print(type(thisdict))
+thisdict1 = dict(name = "John", age = 36, country = "Norway")
+print(thisdict1)
+
+micron = {
+  "brand": "Micron",
+  "location": "Asia",
+  "year of opening": 1986,
+  "type of process": ["Burn In", "Post Electrical","Test Floor"]
+}
+print(len(micron))
